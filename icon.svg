@@ -1,0 +1,27 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4149"/>
+      <stop offset="1" stop-color="#1b1f23"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rounded background -->
+  <rect x="4" y="4" width="120" height="120" rx="27" fill="url(#bg)"/>
+
+  <!-- browser tab strip line (near top) -->
+  <rect x="18" y="38" width="92" height="5" rx="2.5" fill="#f6f8fa" opacity="0.35"/>
+
+  <!-- active browser tab sitting on the strip (chrome-style, curved shoulders) -->
+  <path d="M26 40
+           v-11
+           a7 7 0 0 1 7 -7
+           h32
+           a7 7 0 0 1 7 7
+           v11 Z"
+        fill="#f6f8fa"/>
+
+  <!-- bold # mark filling the lower area -->
+  <text x="64" y="108" font-family="Menlo, Consolas, monospace" font-size="66" font-weight="700"
+        text-anchor="middle" fill="#f6f8fa">#</text>
+</svg>
