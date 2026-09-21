@@ -1,4 +1,4 @@
-# OctoTab
+# <img src="icons/icon128.png" width="28" alt="" valign="middle"> OctoTab
 
 A tiny Chrome extension that puts the pull request number at the front of the browser tab title on GitHub PR pages — so you can tell your open PRs apart at a glance.
 
